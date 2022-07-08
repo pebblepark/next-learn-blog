@@ -1,11 +1,14 @@
 {
   "private": true,
+  "homepage": "https://pebblepark.github.io/next-learn-blog",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "17.0.2",

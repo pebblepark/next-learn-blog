@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import utilStyles from '../styles/utils.module.css';
 import styles from './layout.module.css';
-import profile from '/images/profile.jpg';
 
 const name = 'Pebble Park';
 export const siteTitle = "Pebble Park's Next.js Website";
@@ -31,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src={profile}
+              src='/images/profile.jpg'
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -45,7 +44,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src={profile}
+                  src='/images/profile.jpg'
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
